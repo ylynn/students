@@ -22,7 +22,3 @@ Example data file ([`_data/{{ site.current_term }}/sahuguet.json`](https://githu
 ```
 
 Using the format above, replace with your own `emoji` (choose from [this list](http://www.emoji-cheat-sheet.com/)) and `introduction`. Note that we'll do this in the first class, using the same [workflow](https://docs.google.com/document/d/1-hk6GzhV1yHU1T0E7uqcdNTtvv3fuq1_WECQOWOT2zw/edit#heading=h.a73pobrphorc) that will be used for all assignments.
-
-## Students
-
-{% include students.html %}

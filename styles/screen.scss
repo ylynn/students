@@ -7,10 +7,6 @@ body {
   margin: 50px;
 }
 
-p {
-  max-width: 600px;
-}
-
 a {
   color: black;
 }
@@ -18,6 +14,10 @@ a {
 ul {
   margin: 0;
   padding: 0;
+}
+
+.content {
+  max-width: 650px;
 }
 
 .js-student {
