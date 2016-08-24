@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
+group :jekyll_plugins do
+  gem 'github-pages'
+end
 
 group :development, :test do
   gem 'activesupport', require: false

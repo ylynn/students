@@ -23,7 +23,7 @@
 1. Run (with `ORG` and `TERM` replaced):
 
     ```bash
-    TOKEN=... ORG=advanced-js TERM=students_2015 ruby bin/add_students.rb
+    TOKEN=... ORG=startup-systems TERM=students_2015 ruby bin/add_students.rb
     ```
 
 which will merge the open pull requests on this repository, and add the students to the specified team.
