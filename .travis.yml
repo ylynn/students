@@ -7,6 +7,3 @@ cache: bundler
 script:
   - bundle exec ruby bin/validate.rb
   - bundle exec jekyll build
-branches:
-  only:
-    - /.*/
