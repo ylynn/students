@@ -6,10 +6,15 @@ layout: default
 
 ## Adding yourself
 
-Students, introduce yourself via a `GITHUB_USERNAME.json` file under the [`_data/{{ site.current_term }}/`](https://github.com/startup-systems/students/tree/master/_data/{{ site.current_term }}) directory, and submit via pull request. Here's an example:
+Students and staff, introduce yourself!
 
-```javascript
-// _data/{{ site.current_term }}/sahuguet.json
+1. Create a GitHub account, if you don't have one already.
+1. Create a `GITHUB_USERNAME.json` file under the [`_data/{{ site.current_term }}/`](https://github.com/startup-systems/students/tree/master/_data/{{ site.current_term }}) directory, using the format described below.
+1. Submit via pull request.
+
+Example data file ([`_data/{{ site.current_term }}/sahuguet.json`](https://github.com/startup-systems/students/tree/master/_data/{{ site.current_term }}/sahuguet.json)):
+
+```json
 {
   "emoji": "fr",
   "introduction": "Founder of The Foundry."
